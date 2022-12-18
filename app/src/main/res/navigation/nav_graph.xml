@@ -3,12 +3,12 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/FirstFragment">
+    app:startDestination="@id/SearchFragment">
 
     <fragment
-        android:id="@+id/FirstFragment"
-        android:name="com.streamwide.haythemmejerbi.SearchFragment"
-        android:label="@string/first_fragment_label"
+        android:id="@+id/SearchFragment"
+        android:name="com.streamwide.haythemmejerbi.presentation.search.view.SearchFragment"
+        android:label="@string/search_fragment_label"
         tools:layout="@layout/fragment_search">
     </fragment>
 

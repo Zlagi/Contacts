@@ -1,12 +1,12 @@
 <resources>
     <string name="app_name">Contacts</string>
-    <string name="action_settings">Settings</string>
     <!-- Strings used for fragments for navigation -->
-    <string name="first_fragment_label">First Fragment</string>
-    <string name="second_fragment_label">Second Fragment</string>
-    <string name="next">Next</string>
-    <string name="previous">Previous</string>
-
-    <string name="hello_first_fragment">Hello first fragment</string>
-    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="search_fragment_label">Search Fragment</string>
+    <string name="contact_permission_rationale">Need contacts read permission for fetching and displaying contacts</string>
+    <string name="synchronisation">Synchronisation in progress…</string>
+    <string name="search_for_numbers">Search for numbers</string>
+    <string name="permission_denied">Permission denied</string>
+    <string name="search">Search</string>
+    <string name="color">Color</string>
+    <string name="no_contacts_found">No contacts found !</string>
 </resources>
