@@ -6,5 +6,5 @@ import kotlinx.coroutines.flow.Flow
 interface ContactsRepository {
     suspend fun fetchContacts(): Flow<List<Contact>>
     fun searchBy(query: String): Flow<List<Contact>>
-    fun observeChanges(): Flow<Boolean>
+    fun observeContactsUpdates(): Flow<Boolean>
 }

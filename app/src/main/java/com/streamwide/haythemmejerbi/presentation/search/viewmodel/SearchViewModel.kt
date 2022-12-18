@@ -59,7 +59,7 @@ class SearchViewModel @Inject constructor(
 
     private fun observeContactsUpdates() {
         viewModelScope.launch {
-            contactsRepository.observeChanges().collectLatest {
+            contactsRepository.observeContactsUpdates().collectLatest {
                 setEffect { SearchContract.SearchViewEffect.ShowToast(message = R.string.synchronisation) }
                 fetchContacts()
             }

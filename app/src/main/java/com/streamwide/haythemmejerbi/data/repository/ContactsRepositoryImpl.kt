@@ -30,7 +30,7 @@ constructor(
         return contactsLocalDataSource.searchBy(query = query)
     }
 
-    override fun observeChanges(): Flow<Boolean> = callbackFlow {
+    override fun observeContactsUpdates(): Flow<Boolean> = callbackFlow {
         val contentObserver = object : ContentObserver(null) {
             override fun onChange(selfChange: Boolean) {
                 trySend(selfChange)
